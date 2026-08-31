@@ -1,9 +1,97 @@
-h1{
-font-size: 50px;
-color: rgb(2, 192, 176);
-}
+/* Importa a fonte elegante Montserrat do Google */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+
+/* Estilos Gerais do Site */
 body {
-background-color: aqua;
-
+    background-color: #0b0b0b;
+    color: #e0e0e0;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
 }
 
+/* Cabeçalho Neon */
+header h1 {
+    font-size: 48px;
+    color: #ffd700;
+    margin-bottom: 5px;
+    text-shadow: 0 0 10px #ffd700, 0 0 20px #ffaa00, 0 0 30px #ff8800;
+}
+
+.subtitulo {tps://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+
+body {
+    background-color: #0b0b0b; /* Preto profundo para dar contraste */
+    color: #e0e0e0;           /* Texto claro e elegante */
+    font-family: 'Montserrat', sans-serif; /* Aplica a fonte em todo o site */
+}
+
+h1 {
+    font-size: 50px;
+    color: #ffd700; /* Amarelo Ouro */
+    /* Cria o efeito Neon Dourado brilhante ao redor do texto */
+    text-shadow: 0 0 10px #ffd700, 0 0 20px #ffaa00; 
+}
+
+h2 {
+    color: #ffcc00; /* Dourado suave para os subtítulos */
+    border-bottom: 2px solid #ffcc00; /* Linha dourada charmosa abaixo do título */
+}
+    color: #aaaaaa;
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+/* Área do Vídeo Central Grande */
+.video-destaque iframe {
+    width: 80%;
+    max-width: 900px;
+    height: 500px;
+    border: 3px solid #ffd700;
+    border-radius: 12px;
+    box-shadow: 0 0 25px rgba(255, 215, 0, 0.4);
+    margin-bottom: 40px;
+}
+
+/* Categorias de Músicas */
+.categoria {
+    margin-bottom: 30px;
+}
+
+.categoria h2 {
+    color: #ffcc00;
+    font-size: 20px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ffcc00;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* Container de Botões */
+.botoes-musicas {
+    display: block;
+}
+
+/* Botões Estilo Neon Dourado */
+.btn-musica {
+    display: inline-block;
+    color: #ffffff;
+    background-color: #1a1a1a;
+    text-decoration: none;
+    padding: 12px 20px;
+    margin: 6px;
+    border: 1px solid #ffcc00;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* Efeito ao Passar o Mousse nos Botões */
+.btn-musica:hover {
+    background-color: #ffd700;
+    color: #000000;
+    box-shadow: 0 0 15px #ffd700;
+}

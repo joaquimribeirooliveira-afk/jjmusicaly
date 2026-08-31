@@ -7,19 +7,60 @@
     <title>jjmusicaly</title>
 </head>
 <body>
- <h1>jjmusicaly</h1> 
- <h2>TBB</h2>  
-<iframe width="1337" height="793" src="https://www.youtube.com/embed/3itXDs82fHM" title="Hell&#39;s Kitchen" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<iframe width="1337" height="752" src="https://www.youtube.com/embed/sl_CSj-yZPc?list=RDsl_CSj-yZPc" title="The Battle Bricks OST: Gentleman&#39;s Revival" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
- <iframe width="1337" height="752" src="https://www.youtube.com/embed/hRv2mV0ydO8?list=RDhRv2mV0ydO8" title="The Battle Bricks OST: Waltz of Infamy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<h2>DDLC</h2>
-<iframe width="1337" height="752" src="https://www.youtube.com/embed/al1BNB8bKaE?list=RDal1BNB8bKaE" title="Doki Doki Literature Club! OST - Sayo-nara" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<iframe width="1337" height="752" src="https://www.youtube.com/embed/QIHUK68L9qQ?list=RDal1BNB8bKaE" title="Doki Doki Literature Club! OST - I Still Love You" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<iframe width="1337" height="752" src="https://www.youtube.com/embed/CAL4WMpBNs0?list=RDal1BNB8bKaE" title="Doki Doki Literature Club! OST - Your Reality (Credits)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
- <h2>BLOCK TALES</h2>
- <iframe width="1337" height="752" src="https://www.youtube.com/embed/ODVRXrTPMLU?list=RDODVRXrTPMLU" title="Trinity Council - Block Tales OST" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
- <iframe width="1337" height="752" src="https://www.youtube.com/embed/wY4AX1zupII?list=RDwY4AX1zupII" title="Captain Trotter - Block Tales OST" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
- <iframe width="1337" height="837" src="https://www.youtube.com/embed/W6zKyDvidOc?list=RDW6zKyDvidOc" title="I&#39;m Your Captain Now (The Ancients)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<h3></h3>
+
+    <!-- Cabeçalho Principal -->
+    <header>
+        <h1>jjmusicaly</h1>
+        <p class="subtitulo">Sua Playlist de OSTs de Jogos</p>
+    </header>
+
+    <main class="container-principal">
+        
+        <!-- Tela Grande / Vídeo Central -->
+        <section class="video-destaque">
+            <iframe 
+                name="player-principal" 
+                src="https://www.youtube.com/embed/3itXDs82fHM" 
+                title="Player de Músicas" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen>
+            </iframe>
+        </section>
+
+        <!-- Lista de Vídeos para Selecionar (Estilo Mini YouTube Neon) -->
+        <section class="lista-videos">
+            
+            <div class="categoria">
+                <h2>TBB</h2>
+                <div class="botoes-musicas">
+                    <a href="https://www.youtube.com/embed/3itXDs82fHM" target="player-principal" class="btn-musica">Hell's Kitchen</a>
+                    <a href="https://www.youtube.com/embed/sl_CSj-yZPc" target="player-principal" class="btn-musica">Gentleman's Revival</a>
+                    <a href="https://www.youtube.com/embed/hRv2mV0ydO8" target="player-principal" class="btn-musica">Waltz of Infamy</a>
+                </div>
+            </div>
+
+            <div class="categoria">
+                <h2>DDLC</h2>
+                <div class="botoes-musicas">
+                    <a href="https://www.youtube.com/embed/al1BNB8bKaE" target="player-principal" class="btn-musica">Sayo-nara</a>
+                    <a href="https://www.youtube.com/embed/QIHUK68L9qQ" target="player-principal" class="btn-musica">I Still Love You</a>
+                    <a href="https://www.youtube.com/embed/CAL4WMpBNs0" target="player-principal" class="btn-musica">Your Reality (Credits)</a>
+                </div>
+            </div>
+
+            <div class="categoria">
+                <h2>BLOCK TALES</h2>
+                <div class="botoes-musicas">
+                    <a href="https://www.youtube.com/embed/ODVRXrTPMLU" target="player-principal" class="btn-musica">Trinity Council</a>
+                    <a href="https://www.youtube.com/embed/wY4AX1zupII" target="player-principal" class="btn-musica">Captain Trotter</a>
+                    <a href="https://www.youtube.com/embed/W6zKyDvidOc" target="player-principal" class="btn-musica">I'm Your Captain Now</a>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
 </body>
 </html>
